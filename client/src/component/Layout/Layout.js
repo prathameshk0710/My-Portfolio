@@ -39,7 +39,7 @@ const Layout = ()=>{
                     <div className="Container">
                         <Fade top>
                         <div className="social-icons">
-                            <a className="linkedIn" href="www.linkedin.com/in/prathamesh-kondawale-b90462244" target="_blank">
+                            <a className="linkedIn" href="https://www.linkedin.com/in/prathamesh-kondawale-b90462244/" target="_blank">
                                 <img src={linkedinIcon} alt="linkedIn"></img>
                             </a>
                             <a className="whatsApp" href="https://api.whatsapp.com/send?phone=7263801972" target="_blank">
