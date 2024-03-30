@@ -1,0 +1,132 @@
+.techstack {
+    margin: 100px 20px 30px 20px;
+  }
+  .techstack hr {
+    color: rgb(9, 6, 28);
+    width: 650px;
+    margin: 10px auto;
+  }
+  
+  .techstack h2 {
+    font-weight: bold;
+    font-size: 50px;
+    color: rgb(9, 6, 28);
+  }
+
+  .techstack p{
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 23px;
+    color: rgb(9, 6, 28);
+  }
+  
+  .techstack .card {
+    cursor: pointer;
+    width: auto;
+  }
+  
+  .techstack .tech-icon {
+    font-size: 2rem;
+    margin-right: 10px;
+  }
+  
+  .techstack .card:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: #061f48;
+    color: white;
+    transition: 0.8s;
+  }
+  .media-body{
+    display: flex;
+    justify-content: center;
+  }
+  .media-body h5{
+    margin: 0;
+  }
+
+/* chatgpt */
+  
+  .custom-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .custom-col {
+    flex: 0 0 25%;
+    max-width: 25%;
+    box-sizing: border-box; 
+    padding: 0 10px;
+    flex: 0 0 calc(25% - 1rem);
+  }
+  
+  .custom-card {
+    border: 2px solid #ccc;
+    border-radius: 20px;
+  }
+  .custom-card:hover{
+    color:#ccc;
+    background-color: rgb(9, 6, 28);
+    transform: scale(1.1);
+    transition: 0.5s;
+  }
+
+  .custom-card-body {
+    display: flex;
+    align-items: center;
+  }
+  
+  .custom-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .custom-align-center {
+    margin-right: 0.5rem;
+  }
+  
+  .custom-media-body h5 {
+    margin: 0;
+  }
+  
+  .custom-card-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+  }
+  .custom-align-center svg{
+    height: 48px;
+    width: 48px;
+  }
+  .custom-media-body h5{
+    font-size: 28px;
+  }
+
+  /* =============================== */
+  @media (max-width: 770px) {
+    .techstack {
+      padding: 0;
+      margin: 0;
+      margin-top: 50px;
+    }
+  
+    .techstack hr {
+      width: 850px;
+    }
+    .techstack h2{
+      font-size: 70px;
+    }
+    .techstack p{
+      font-size: 27px;
+    }
+    .custom-col{
+      flex: 0 0 25%; 
+      margin: 0.5rem;
+    }
+  }

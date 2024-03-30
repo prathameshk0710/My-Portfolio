@@ -1,0 +1,24 @@
+.mobile-menu-toggle{
+    color: white;
+    /* display: block; */
+    display: flex;
+    flex-direction: row;
+    transition: 0.5s;
+    justify-content: space-around;
+    gap: 40px;
+    margin-left: 20px;
+}
+.mobile-menu h1{
+    /* display: none; */
+    color: white;
+    
+}
+.menu-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.menu-item p{
+    margin: 0px;
+}

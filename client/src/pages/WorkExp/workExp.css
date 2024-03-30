@@ -1,0 +1,60 @@
+.work-container{
+  margin-top: 100px;
+}
+
+.work-container hr {
+    color: #061f48;
+    width: 550px;
+    margin: 10px auto;
+  }
+  
+  .work-container h2 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #061f48;
+  }
+  .work-container h3 {
+    color: #ffcc00
+  }
+
+  .work-container p{
+    font-size: 23px;
+    margin-left: 30px;
+    margin-right: 30px;
+    color: black;
+  }
+.work-timeline{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 0;
+}
+.custom-timeline:before {
+    background-color: #09061c; /* Change the line color here */
+  }
+  h6 {
+    font-size: 16px;
+    font-weight: normal;
+    font-style: italic;
+  }
+
+  
+@media (max-width:770px){
+  .work-container h2{
+    font-size: 70px;
+  }
+  .work-container hr{
+    width: 800px;
+  }
+  .work-container p{
+    font-size: 27px;
+  }
+  .work-timeline h3{
+    font-size: 40px;
+  }
+  .work-timeline h4{
+    font-size: 30px;
+  }
+  .work-timeline h6{
+    font-size: 24px;
+  }
+}

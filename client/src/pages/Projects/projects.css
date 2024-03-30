@@ -1,0 +1,194 @@
+.project-container{
+  margin-top: 100px;
+}
+.project-cards-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.project-intro hr {
+    color: #061f48;
+    width: 400px;
+    margin: 10px auto;
+  }
+  
+  .project-intro h2 {
+    font-weight: bold;
+    color: #061f48;
+    font-size: 50px;
+  }
+
+  .project-intro p{
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 23px;
+    color: '#09061C';
+  }
+
+.project-card{
+    width: 350px;
+    height: 400px;
+    position: relative;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+  #ads {
+    margin: 30px 0px 30px 0px;
+  }
+  
+  #ads .card-notify-badge {
+    position: absolute;
+    left: -10px;
+    top: -20px;
+    background: #e0b50f;
+    text-align: center;
+    border-radius: 10px;
+    color: black;
+    padding: 5px 10px;
+    font-size: 16px;
+  }
+  
+  .project-cards-container .card img {
+    height: 150px;
+    width: 100%;
+  }
+  
+  .card-detail-badge {
+    background-color: #e0b50f;
+    text-align: center;
+    border-radius: 10px;
+    color: black;
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+  .card-image-overly {
+    /* font-size: 20px; */
+    /* margin-bottom: 15px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    /* position: absolute;
+    bottom: 40%; */
+  }
+  .card-image-overly span {
+    font-size: 12px;
+    display: inline-block;
+  }
+  
+  .project-cards-container .card:hover {
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 12px 15px 20px 0px rgba(46, 61, 73, 0.15);
+    transition: all 0.5s ease;
+    transform: scale(1.03)
+  }
+  
+  .ad-btn {
+    text-transform: uppercase;
+    width: 150px;
+    height: 40px;
+    display: block;
+    text-align: center;
+    background-color: rgb(75, 75, 235);
+    color: white;
+    border-radius: 80px;
+    font-size: 16px;
+    line-height: 35px;
+    text-decoration: none;
+    margin: 15px auto 15px auto;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .ad-btn:hover {
+    background-color: white;
+    color: white;
+    background: transparent;
+    border: 2px solid rgb(255, 255, 255);
+    transition: all 0.3s ease;
+    box-shadow: 12px 15px 20px 0px rgba(0, 0, 0, 0.15);
+  }
+  .first-project{
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)), url('../../assets/images/first-project.jpg');
+    background-size: cover; /* Scale the background image to cover the entire element */
+    background-position: center; /* Center the background image within the element */
+}
+.card-body h2{
+    color: white;
+    margin-top: 10px;
+}
+.card-info{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.project-desc{
+    font-size: 18px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    text-align: justify;
+}
+
+.second-project{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)), url('../../assets/images/second-project.jpg');
+    background-size: cover; /* Scale the background image to cover the entire element */
+    background-position: center; /* Center the background image within the element */
+}
+
+.third-project{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('../../assets/images/third-project.jpg');
+    background-size: cover; /* Scale the background image to cover the entire element */
+    background-position: center; /* Center the background image within the element */
+}
+
+
+
+@media (max-width:770px){
+  .project-intro h2{
+    font-size: 80px;
+  }
+  .project-intro hr{
+    width: 530px;
+  }
+  .project-intro p{
+    font-size: 27px;
+  }
+  .project-cards-container{
+    display: flex;
+    flex-direction: column;
+  }
+  .project-card{
+    margin: 30px;
+    width: 800px;
+  }
+  #ads .card-notify-badge{
+    font-size: 28px;
+    font-weight: bold;
+  }
+  #ads .project-desc{
+    font-size: 25px;
+    padding: 35px;
+    padding-top: 40px;
+  }
+  #ads .card-detail-badge{
+    font-size: 20px;
+  }
+  .card-body{
+    padding-bottom: 0px;
+  }
+  .card-body h2{
+    font-size: 50px;
+    margin-top: 10px;
+  }
+  .ad-btn{
+    font-size: 20px;
+    width: 180px;
+    height: 40px;
+  }
+}

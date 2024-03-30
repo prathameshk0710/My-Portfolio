@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8c1bf19a.css",
+    "main.js": "/static/js/main.6c377219.js",
+    "static/js/453.258b012d.chunk.js": "/static/js/453.258b012d.chunk.js",
+    "static/media/resume.pdf": "/static/media/resume.dbc2bade561f556af5c1.pdf",
+    "static/media/aboutImg.png": "/static/media/aboutImg.d47aba358be7e7ec7d9e.png",
+    "static/media/profile.png": "/static/media/profile.8bb3c0cd16fc0cf435e9.png",
+    "static/media/first-project.jpg": "/static/media/first-project.a14b6c5fe68caa85a7b9.jpg",
+    "static/media/gery-wall.jpg": "/static/media/gery-wall.58a789e5ad3954c0ee62.jpg",
+    "static/media/whatsapp.png": "/static/media/whatsapp.c339ff504121f060e736.png",
+    "static/media/second-project.jpg": "/static/media/second-project.b6af9e41a024e8190216.jpg",
+    "static/media/third-project.jpg": "/static/media/third-project.38a2aac11fe913810a20.jpg",
+    "static/media/github.png": "/static/media/github.553c66159c5672f25df6.png",
+    "static/media/instagram.png": "/static/media/instagram.75e0546a6b5abe4c0506.png",
+    "static/media/linkedin.png": "/static/media/linkedin.f249b38224ca41a0b909.png",
+    "index.html": "/index.html",
+    "main.8c1bf19a.css.map": "/static/css/main.8c1bf19a.css.map",
+    "main.6c377219.js.map": "/static/js/main.6c377219.js.map",
+    "453.258b012d.chunk.js.map": "/static/js/453.258b012d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8c1bf19a.css",
+    "static/js/main.6c377219.js"
+  ]
+}

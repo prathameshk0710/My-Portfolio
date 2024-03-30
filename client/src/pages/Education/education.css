@@ -1,0 +1,59 @@
+
+.education-container{
+  margin-top: 100px;
+}
+.education-timeline{
+    background-color: rgb(128, 128, 128, 0.4);
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 0;
+    border-radius: 30px;
+}
+.education-container hr {
+    color: #061f48;
+    width: 450px;
+    margin: 10px auto;
+  }
+  
+  .education-container h2 {
+    font-weight: bold;
+    font-size: 50px;
+    color: #061f48;
+  }
+
+  .education-container p{
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 23px;
+    color: black;
+  }
+  .education-timeline h3{
+    color: rgb(9, 6, 28);
+  }
+  .education-timeline h4{
+    color: rgb(61, 47, 144);
+  }
+  .education-timeline h6{
+    color: rgb(61, 47, 144);
+  }
+
+@media (max-width:770px){
+    .education-container h2{
+      font-size: 70px;
+    }
+    .education-container hr{
+      width: 550px;
+    }
+    .education-container p{
+      font-size: 27px;
+    }
+    .education-timeline h3{
+      font-size: 40px;
+    }
+    .education-timeline h4{
+      font-size: 35px;
+    }
+    .education-timeline h6{
+      font-size: 25px;
+    }
+}

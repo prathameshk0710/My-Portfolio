@@ -1,0 +1,32 @@
+.mobile-navbar{
+    display: none;
+    height: 90px;
+}
+
+/* media query */
+
+@media (max-width:770px){
+    .mobile-navbar{
+        background-color: rgb(9, 6, 28);
+        display: block flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 20px;
+        position: fixed;
+        width: 100%;
+        z-index: 1000;
+    }
+    .mobile-navbar-title{
+        /* flex:1; */
+        margin: 0 auto;
+        color: #e0b50f;
+    }
+    .mobile-navbar-title h3{
+        font-size: 50px;
+    }
+    .mobile-navbar-arrow{
+        /* flex:1; */
+        margin-left: 10px;
+        cursor: pointer;
+    }
+}
